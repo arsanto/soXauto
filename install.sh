@@ -25,3 +25,7 @@ make install
 echo “include /usr/local/lib” >> /etc/ld.so.conf
 
 /sbin/ldconfig
+
+#That’s it. Now your new compiled sox with mp3 support in /usr/local/bin/ folder.
+
+export PATH=$PATH:/usr/local/bin
