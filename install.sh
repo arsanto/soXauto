@@ -1,8 +1,7 @@
 #!/bin/bash
-
 # run: source <(curl -s https://github.com/arsanto/soXauto/blob/master/install.sh
-
 # sox auto
+
 yum install gcc-c++ libmad libmad-devel libid3tag libid3tag-devel lame lame-devel flac-devel libvorbis-devel
 
 yum install -y sox lame
