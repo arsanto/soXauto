@@ -5,6 +5,6 @@ Auto SoX
 
 wget https://github.com/arsanto/soXauto/blob/master/install.sh
 
-chmod 0755 install.sh
+chmod +x install.sh
 
 ./install.sh
